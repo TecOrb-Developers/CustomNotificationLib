@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NotifyLibrary</string>
+    <string name="ok_text">Ok</string>
+    <string name="cancel_text">cancel</string>
+    <string name="text_hello_Vivek">Hello Vivek</string>
+    <string name="notificationtitle">title</string>
+    <string name="notificationtext">body</string>
+    <string name="notificationticker">notificationticker</string>
+    <string name="customnotificationtitle">custom Title</string>
+    <string name="customnotificationtext">custom body</string>
+    <string name="customnotificationticker">customticker</string>
+    <string name="lbltitle">title</string>
+    <string name="lbltext">desc</string>
+</resources>

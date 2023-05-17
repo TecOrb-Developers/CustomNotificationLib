@@ -1,0 +1,3 @@
+include ':app:hrnotification'
+include ':app',':hrnotification'
+rootProject.name = "NotifyLibrary"

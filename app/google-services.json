@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1054282988104",
+    "project_id": "notifylibrary-f1287",
+    "storage_bucket": "notifylibrary-f1287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054282988104:android:db113c41998e23206ef67d",
+        "android_client_info": {
+          "package_name": "com.r.notifylibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054282988104-975u0v29jr5bec2n7rs42a7iosr03u5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.r.notifylibrary",
+            "certificate_hash": "84059c57f6d303529ed2e54b3425151d58ea1735"
+          }
+        },
+        {
+          "client_id": "1054282988104-uq72tmandbhndpejscs6qte074cpk4u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNmCD3CPt4SPOuiLK9sERtiPhHA7Sjufk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054282988104-uq72tmandbhndpejscs6qte074cpk4u5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

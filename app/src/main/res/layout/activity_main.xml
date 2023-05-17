@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/items"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Time Take Notification"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"
+            android:visibility="visible"
+            android:layout_margin="30dp"
+            app:stv_text_stroke="true"
+            android:background="@drawable/rounded_card"
+            app:layout_constraintBottom_toTopOf="@+id/noti"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/noti"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Direct Notification"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"
+            android:layout_margin="30dp"
+            app:stv_text_stroke="true"
+            android:background="@drawable/rounded_card"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
